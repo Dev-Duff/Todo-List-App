@@ -1,0 +1,105 @@
+$primaryColor: chartreuse;
+$secondary-color: #eece1a;
+$tertiaryColor: rgb(141, 6, 13);
+$home-image: url();
+$background-opacity: 0.9;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+
+  div {
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: violet;
+
+    h2 {
+      margin: 10px auto;
+      padding: 10px 100px;
+    }
+
+    input {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      padding: 5px 8px;
+      border: 5px solid #c3c3c3;
+      size: 50;
+      border-radius: 8px;
+      width: 400px;
+    }
+    button {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px;
+      border: 2px solid white;
+      padding: 5px 20px;
+      background-color: $primaryColor;
+      color: blue;
+      //   box-shadow: rgb(2, 120, 238);
+    }
+  }
+
+  #todoList {
+    padding: 10px;
+    width: 550px;
+    margin: 0 auto;
+    background-image: url(./img/arches-blond-hair-colors-1874726.jpg);
+    background-size: cover;
+  }
+
+  #todoList {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        margin: 4px;
+        padding: 10px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        border: 3px solid orangered;
+        border-radius: 8px;
+        background-color: transparent;
+        height: 50px;
+      }
+
+      li span.title {
+        float: left;
+        // display: inline-block;
+        padding: 5px;
+      }
+
+      li span.action {
+        float: right;
+        // display: inline-block;
+      }
+
+      li.done {
+        background-color: yellow;
+      }
+
+      li a {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 14px;
+        display: inline-block;
+        text-decoration: none;
+        background-color: skyblue;
+        border-radius: 8px;
+        padding: 5px 8px;
+        color: white;
+      }
+
+      li a:hover {
+        background-color: white;
+        color: palevioletred;
+      }
+    }
+  }
+}
